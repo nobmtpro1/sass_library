@@ -1,0 +1,21 @@
+.sp-tb-only {
+    @media (min-width: $breakpoint-min-pc) {
+        display: none !important;
+    }
+}
+  
+.pc-only {
+    @media (max-width: $breakpoint-max-tb) {
+        display: none !important;
+    }
+}
+
+
+.container{
+    padding-right: 9.7rem;
+    padding-left: 9.7rem;
+}
+
+.no-scroll{
+    overflow: hidden;
+}

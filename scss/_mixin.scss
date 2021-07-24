@@ -1,0 +1,30 @@
+
+/* MEDIA QUERIES
+ * -----------------------------------------------*/
+@mixin PC {
+
+  @media (min-width: $breakpoint-min-pc) {
+  
+    @content;
+    
+  }
+}
+
+@mixin SP {
+  @media (min-width: $breakpoint-min-sp) {
+  
+    @content;
+    
+  }
+}
+
+@mixin TB {
+  @media  (min-width: $breakpoint-min-tb) {
+  
+    @content;
+    
+  }
+}
+
+
+
